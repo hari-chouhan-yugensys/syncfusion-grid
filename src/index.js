@@ -8,7 +8,6 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import GridDetails from './GridDetails';
 
 
 
@@ -17,7 +16,6 @@ const routing = (
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<App />} />
-        <Route path="/GridDetails" element={<GridDetails />} />
       </Routes>
     </BrowserRouter>
   </div>

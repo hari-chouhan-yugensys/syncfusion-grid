@@ -2,6 +2,7 @@ import './App.css';
 import { ColumnDirective, ColumnsDirective, GridComponent } from '@syncfusion/ej2-react-grids';
 import * as React from 'react';
 import { data } from './datasource';
+import TreeGridTemplate from './TreeGridTemplate';
 
 
 class App extends React.Component {
@@ -27,7 +28,9 @@ class App extends React.Component {
         <div className="App">
           <h1>GridComponent</h1>
 
-          <GridComponent dataSource={data}
+          <TreeGridTemplate />
+
+          {/* <GridComponent 
             rowSelected={this.testAlert.bind(this)}
           >
             <ColumnsDirective>
@@ -37,7 +40,7 @@ class App extends React.Component {
               <ColumnDirective field='Freight' width='100' format="C2" textAlign="Right" />
               <ColumnDirective field='ShipCountry' width='100' />
             </ColumnsDirective>
-          </GridComponent>
+          </GridComponent> */}
         </div>
 
       </div>

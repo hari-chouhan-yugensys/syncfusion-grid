@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.e-treegrid .e-image {
+  height: 13px;
+  width: 14px;
+  vertical-align: middle;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.statustemp {
+  position: relative;
+  height: 19px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #C3F1D0;
+  color: #00752F;
+  width: 47px;
+}
+
+.tailwind .e-grid .statustemp, .tailwind-dark .e-grid .statustemp,
+.bootstrap5 .e-grid .statustemp, .bootstrap5-dark .e-grid .statustemp{
+  padding-top: 2px;
+}
+
+.statustemp.e-lowgdp {
+  background-color: #FFDBDB;
+  color: #BD0000;
+
+}
+
+td.e-rowcell .statustxt {
+  color: #398120;
+  position: relative;
+}
+
+td.e-rowcell .statustxt.e-lowgdp {
+  color: #e60000;
+  position: relative;
+}
+
+.rating .star {
+  font-size: 132%;
+  color: lightgrey;
+}
+
+.rating .star.checked {
+  color: #EE9E54;
+}
+
+.rating .star:before {
+  content: '★';
+}
+.negativeTimeZone {
+  transform: rotate(180deg);
+}
+#myBar {
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  background-color: #00b300;
+}
+
+#myBar.progressdisable {
+  background-color: #df2222;
+}
+
+#label {
+  position: relative;
+  left: 10px;
+  line-height: 18px;
+  font-size: 10px;
+  color: white;
+}
+.highcontrast .e-grid #myProgress {
+  background-color: whitesmoke;
+}
+#myProgress {
+  position: relative;
+  height: 18px;
+  width: 10em;
+  text-align: left;
+  background-color: whitesmoke;
+}
+#myBar.progressdisable {
+  background-color: #df2222;
+}
+
+#coordinates .e-image {
+  filter: brightness(180%);
 }
