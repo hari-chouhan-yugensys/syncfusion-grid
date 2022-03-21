@@ -1621,7 +1621,7 @@ exports.countries = [
         ]
     },
     {
-        name: 'Greece', capital: 'Athens', area: 131957, population: 10783625, gdp: 1.5,
+        name: 'Dubai', capital: 'Athens', area: 131957, population: 10783625, gdp: 1.5,
         timezone: 'UTC +2.0', rating: 3, unemployment: 20.8, coordinates: '39.0742° N, 21.8243° E',
         states: [
             { name: 'Athens', area: 2929, population: 664046, gdp: 1,
@@ -1753,7 +1753,7 @@ exports.countries = [
         ]
     },
     {
-        name: 'Mumbai', capital: 'Ottawa', area: 9984670, population: 36953765, gdp: 3.0,
+        name: 'Nagpur', capital: 'Ottawa', area: 9984670, population: 36953765, gdp: 3.0,
         timezone: 'UTC -3.3 to -8', rating: 5, unemployment: 5.8, coordinates: '56.1304° N, 106.3468° W',
         states: [
             { name: 'Ontario', capital: 'Toronto', area: 908607, population: 14374084, gdp: 2.8,
