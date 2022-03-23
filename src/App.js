@@ -30,7 +30,7 @@ class App extends React.Component {
 
           <TreeGridTemplate />
 
-          {/* <GridComponent 
+          <GridComponent 
             rowSelected={this.testAlert.bind(this)}
           >
             <ColumnsDirective>
@@ -40,7 +40,7 @@ class App extends React.Component {
               <ColumnDirective field='Freight' width='100' format="C2" textAlign="Right" />
               <ColumnDirective field='ShipCountry' width='100' />
             </ColumnsDirective>
-          </GridComponent> */}
+          </GridComponent>
         </div>
 
       </div>
